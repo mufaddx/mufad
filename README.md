@@ -19,17 +19,7 @@ define('DB_NAME', 'your_actual_database_name');
 define('DB_USER', 'your_actual_database_user');
 define('DB_PASS', 'your_actual_password');
 ```
-
-Open `config/config.php` and update Razorpay keys if needed:
-```php
-define('RAZORPAY_KEY_ID',     'rzp_live_YOUR_KEY');
-define('RAZORPAY_KEY_SECRET', 'YOUR_SECRET');
 ```
-
-## Login
-- **Admin Panel:** https://shop.ihindia.in/admin/login.php
-- **Email:** admin@ihindia.in
-- **Password:** Admin@123 ← CHANGE THIS IMMEDIATELY
 
 ## Bugs Fixed in This Version
 1. ✅ config.php — Added missing ADMIN_SESSION_KEY, USER_SESSION_KEY, CURRENCY, WHATSAPP_NUMBER constants
